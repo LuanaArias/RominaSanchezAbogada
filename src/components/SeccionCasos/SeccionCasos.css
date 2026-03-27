@@ -1,0 +1,139 @@
+.casos-section {
+  padding: 8rem 10%;
+  background-color: var(--accent); 
+  transition: background-color 0.6s ease;
+  position: relative;
+}
+
+[data-theme="dark"] .casos-section {
+  background-color: #1A1815; 
+}
+
+.casos-header {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.casos-subtitle {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #8C6A4C;
+  margin-bottom: 1.5rem;
+}
+
+.casos-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  color: #3D3935;
+  font-weight: 400;
+  margin: 0;
+}
+
+[data-theme="dark"] .casos-title {
+  color: #D9D2C5;
+}
+
+.casos-divider {
+  width: 40px;
+  height: 1px;
+  background-color: #8C6A4C;
+  margin: 2rem auto;
+  opacity: 0.6;
+}
+
+.casos-container {
+  max-width: 900px; 
+  margin: 0 auto; 
+}
+
+.caso-card {
+  display: block; 
+  margin-bottom: 4rem; 
+  padding: 4rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  border-left: 1px solid rgba(140, 106, 76, 0.3); 
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+[data-theme="dark"] .caso-card {
+  background-color: rgba(255, 255, 255, 0.02);
+  border-left-color: rgba(184, 151, 126, 0.2);
+}
+
+.caso-card:hover {
+  transform: translateX(15px); 
+  background-color: rgba(255, 255, 255, 0.6);
+  border-left-color: #8C6A4C;
+}
+
+[data-theme="dark"] .caso-card:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.caso-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #8C6A4C;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(140, 106, 76, 0.3);
+}
+
+.caso-item-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  color: #3D3935;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+[data-theme="dark"] .caso-item-title {
+  color: #B8977E;
+}
+
+.caso-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 2; 
+  color: #5E5852;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+[data-theme="dark"] .caso-description {
+  color: rgba(217, 210, 197, 0.7);
+}
+
+.caso-footer-line { display: none; }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .casos-section {
+    padding: 6rem 8%;
+  }
+  
+  .caso-card {
+    padding: 2.5rem 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .caso-card:hover {
+    transform: translateX(5px);
+  }
+
+  .caso-item-title {
+    font-size: 1.8rem;
+  }
+}

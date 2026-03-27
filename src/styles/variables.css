@@ -1,0 +1,45 @@
+:root {
+  --bg: #F2EBE3;
+  --text: #2E2A27;
+  --primary: #A47148;
+  --accent: #c2a87867;
+  --font-title: 'Cormorant Garamond', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg: #1E1B18;
+  --text: #F5F0E6;
+  --primary: #C08A5A;
+  --accent: #E0C097;
+  --accent: #2A2622; 
+  --accent-hover: #35302B;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-title);
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.95rem;
+  font-weight: 400;
+}

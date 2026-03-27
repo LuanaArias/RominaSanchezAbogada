@@ -1,0 +1,149 @@
+.sobre-mi-section {
+  padding: 8rem 10%;
+  background-color: var(--bg);
+  position: relative;
+}
+
+.sobre-mi-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr; 
+  gap: 5rem;
+  align-items: center;
+}
+
+.sobre-mi-image-wrapper {
+  position: relative;
+}
+
+.image-frame {
+  position: relative;
+  border: 1px solid var(--accent);
+  padding: 15px; 
+  background-color: white;
+}
+
+.profile-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(20%);
+  transition: filter 0.5s ease;
+}
+
+.profile-photo:hover {
+  filter: grayscale(0%);
+}
+
+.experience-badge {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background-color: var(--primary);
+  color: white;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.experience-badge .years {
+  display: block;
+  font-size: 2rem;
+  font-family: var(--font-title);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.experience-badge .text {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.sobre-mi-content h2 {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+.title-divider-left {
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent);
+  margin-bottom: 2rem;
+}
+
+.description-highlight {
+  font-size: 1.2rem;
+  color: var(--text);
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.description-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text);
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+.formacion-academica h3 {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.formacion-academica ul {
+  list-style: none;
+  padding: 0;
+}
+
+.formacion-academica li {
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.formacion-academica li::before {
+  content: '•';
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .sobre-mi-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  .sobre-mi-image-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre-mi-section { padding: 4rem 5%; }
+  .sobre-mi-content h2 { font-size: 2.2rem; }
+  .experience-badge { padding: 1.5rem 1rem; bottom: -10px; right: -10px; }
+}

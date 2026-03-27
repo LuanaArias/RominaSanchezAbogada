@@ -1,0 +1,122 @@
+.especialidades-section {
+  padding: 10rem 10%;
+  background-color: #EAE3D2; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transition: background-color 0.6s ease;
+}
+
+[data-theme="dark"] .especialidades-section {
+  background-color: #1F1D1B; 
+}
+
+.especialidades-section-header { 
+  text-align: center; 
+  max-width: 750px; 
+  margin-bottom: 6rem; 
+}
+
+.especialidades-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #8C6A4C; 
+  margin-bottom: 1.5rem;
+}
+
+.especialidades-title-section { 
+  font-family: 'Cormorant Garamond', serif; 
+  color: #3D3935; 
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+[data-theme="dark"] .especialidades-title-section {
+  color: #D9D2C5; 
+}
+
+.especialidades-main-description {
+  color: #5E5852;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+
+[data-theme="dark"] .especialidades-main-description {
+  color: rgba(217, 210, 197, 0.7);
+}
+
+.especialidades-grid-areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 5rem; 
+  width: 100%;
+  max-width: 1300px;
+}
+
+.especialidades-area-card {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  border-top: 1px solid rgba(140, 106, 76, 0.2); 
+  padding-top: 2.5rem;
+  transition: all 0.5s ease;
+}
+
+.especialidades-area-card:hover {
+  transform: translateY(-8px);
+  border-top-color: #8C6A4C; 
+}
+
+.especialidades-card-icon-container {
+  margin-bottom: 1.5rem;
+  color: #8C6A4C;
+}
+
+.especialidades-card-icon-container svg {
+  width: 2rem; 
+  height: 2rem;
+  stroke-width: 1.2px;
+}
+
+.especialidades-card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem; 
+  color: #3D3935;
+  margin-bottom: 1rem;
+}
+
+[data-theme="dark"] .especialidades-card-title {
+  color: #B8977E; 
+}
+
+.especialidades-card-text {
+  font-size: 0.95rem; 
+  line-height: 1.8;
+  color: #5E5852;
+  margin: 0;
+}
+
+[data-theme="dark"] .especialidades-card-text {
+  color: rgba(217, 210, 197, 0.6);
+}
+@media (max-width: 768px) {
+  .especialidades-section {
+    padding: 6rem 8%; 
+  }
+
+  .especialidades-title-section {
+    font-size: 2.4rem;
+  }
+
+  .especialidades-grid-areas {
+    gap: 3rem;
+  }
+}
