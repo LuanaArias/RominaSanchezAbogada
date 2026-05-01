@@ -8,7 +8,7 @@ export function SeccionContacto(){
         e.preventDefault();
 
         // Tu número de teléfono con código de país 
-        const telefono = "5491100000000"; 
+        const telefono = "541167512241"; 
     
         // Armamos el texto con saltos de línea codificados (%0A)
         const mensajeWsp = `Hola Romina, Mi nombre es *${nombre}* y me gustaría realizar el siguiente trabajo:%0A%0A${descripcion}`;
@@ -44,7 +44,7 @@ export function SeccionContacto(){
                         <label htmlFor="descripcion">MENSAJE</label>
                         <textarea 
                             id="descripcion" 
-                            placeholder="Describe brevemente tu situaciónlegal..." 
+                            placeholder="Describe brevemente tu situación legal..." 
                             value={descripcion}
                             onChange={(e) => setDescripcion(e.target.value)}
                             required 

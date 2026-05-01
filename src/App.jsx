@@ -3,6 +3,7 @@ import './styles/variables.css'
 import { Header } from './components/Header/Header'
 import { PaginaPrincipal } from './pages/PaginaPrincipal/PaginaPrincipal'
 import { useState, useEffect } from 'react'
+import { Footer } from './components/Footer/Footer'
 function App() {
   const [theme, setTheme] = useState("light");
 
@@ -20,7 +21,7 @@ function App() {
       <main>
         <PaginaPrincipal />
       </main>
-      
+      <Footer />
     </div>
       
     </>

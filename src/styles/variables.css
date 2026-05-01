@@ -1,19 +1,18 @@
 :root {
-  --bg: #F2EBE3;
-  --text: #2E2A27;
-  --primary: #A47148;
-  --accent: #c2a87867;
+  --bg: #E3E0D5;           /* Powder */
+  --text: #222021;         /* Charcoal */
+  --primary: #795C34;      /* Peanut */
+  --accent: #997950;       /* Tortilla */
   --font-title: 'Cormorant Garamond', serif;
   --font-body: 'Montserrat', sans-serif;
 }
 
 [data-theme="dark"] {
-  --bg: #1E1B18;
-  --text: #F5F0E6;
-  --primary: #C08A5A;
-  --accent: #E0C097;
-  --accent: #2A2622; 
-  --accent-hover: #35302B;
+  --bg: #222021;           /* Charcoal*/
+  --text: #EDEBEA;         /* Metal*/
+  --primary: #997950;      /* Tortilla */
+  --accent: #3b31314f;       /* Oil*/
+  --accent-hover: #795C34; /* Peanut */
 }
 
 body {

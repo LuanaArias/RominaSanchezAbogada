@@ -54,11 +54,11 @@
 }
 
 .item-seccion-elegirme {
-  background: rgba(255, 255, 255, 0.4); 
+  background: var(--card-bg, rgba(255, 255, 255, 0.7)); 
   backdrop-filter: blur(5px);
   padding: 2.5rem 2rem;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,10 +68,12 @@
 
 .item-seccion-elegirme:hover {
   transform: translateY(-10px);
-  background: #FFFFFF;
-  box-shadow: 0 20px 40px rgba(46, 42, 39, 0.1);
+  background: var(--card-hover, #FFFFFF);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   border-color: var(--primary);
+  
 }
+
 
 .elegirme-icon-wrapper {
   width: 60px;
@@ -105,11 +107,12 @@
 .item-seccion-elegirme p {
   font-size: 0.9rem;
   line-height: 1.6;
-  color: var(--text);
-} 
+  color: rgb(0, 0, 0); 
+  opacity: 1; 
+}
 
 [data-theme="dark"] .item-seccion-elegirme p {
-    color: var(--accent);
+    color: black;
 }
 
 .elegirme-title-divider { 

@@ -1,4 +1,3 @@
-import { SeccionCasos } from "../../components/SeccionCasos/SeccionCasos";
 import { SeccionContacto } from "../../components/SeccionContacto/SeccionContacto";
 import { SeccionElegirme } from "../../components/SeccionElegirme/SeccionElegirme";
 import { SeccionEspecialidades } from "../../components/SeccionEspecialidades/SeccionEspecialidades";
@@ -12,7 +11,6 @@ export function PaginaPrincipal(){
             <SeccionSobreMi />
             <SeccionElegirme />
             <SeccionEspecialidades />
-            <SeccionCasos />
             <SeccionContacto />
         </>
     )

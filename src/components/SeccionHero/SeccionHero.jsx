@@ -18,7 +18,7 @@ export function SeccionHero() {
                             Dra. Romina Sanchez
                         </h1>
 
-                        <p>Comprometida con la defensa de tus derechos</p>
+                        <p>Abogada de familias - Especialista en falsas denuncias, obstrucciones de vínculos y otras especialidades.</p>
 
                         <div className="section-hero-buttons">
                             <a href="#especialidades" className="btn outline">

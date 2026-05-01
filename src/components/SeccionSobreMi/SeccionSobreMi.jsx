@@ -13,10 +13,6 @@ export function SeccionSobreMi() {
               className="profile-photo"
             />
           </div>
-          <div className="experience-badge">
-            <span className="years">...+</span>
-            <span className="text">Años de Trayectoria</span>
-          </div>
         </div>
 
         <div className="sobre-mi-content">
@@ -25,19 +21,18 @@ export function SeccionSobreMi() {
           <div className="title-divider-left"></div>
           
           <p className="description-highlight">
-            Especialista en ......., dedicada a la protección integral de los derechos de mis clientes.
+            Abogada especializada en derecho de familia y conflictos de alta complejidad, con intervención en casos atravesados por falsas denuncias, obstrucción de vínculos y dinámicas familiares críticas, así como en otras ramas del derecho que requieren una mirada estratégica e integral. 
           </p>
           
           <p className="description-text">
-            Mi enfoque se basa en la <strong>atención personalizada</strong> y la búsqueda constante de soluciones estratégicas. Entiendo que detrás de cada expediente hay una historia humana que requiere no solo conocimiento técnico, sino también sensibilidad y reserva.
+            Mi enfoque se basa en la <strong>atención personalizada</strong> y <strong>la búsqueda constante de soluciones estratégicas</strong>. Entiendo que detrás de cada expediente hay una historia humana que requiere no solo conocimiento técnico, sino también sensibilidad y reserva, por lo que trabajo con precisión, criterio y un compromiso sostenido con la verdad.
           </p>
 
           <div className="formacion-academica">
             <h3>Formación Académica</h3>
             <ul>
-              <li>Abogada - Universidad ....</li>
-              <li>....</li>
-              <li>......</li>
+              <li>Abogada - Universidad de Moron</li>
+              <li>Universidad de La Matanza</li>
             </ul>
           </div>
         </div>

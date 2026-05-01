@@ -33,10 +33,29 @@ const IconPenal = () => (
   </svg>
 );
 
+const IconCivil = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+    <polyline points="14 2 14 8 20 8"/>
+    <path d="M8 13h8M8 17h8M8 9h2"/>
+  </svg>
+);
+
+const IconPrevisional = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="8" r="4"/>
+    <path d="M6 22v-2a6 6 0 0 1 12 0v2"/>
+    <path d="M16 16l2 2 4-4"/>
+  </svg>
+);
+
 export const areasEstudio = [
   { id: 1, Icon: IconFamilia, title: "Derecho de Familia", desc: "Conflictos familiares de alta sensibilidad." },
   { id: 2, Icon: IconVinculos, title: "Obstrucción de Vínculos", desc: "Defensa del derecho de comunicación familiar." },
   { id: 3, Icon: IconDenuncias, title: "Falsas Denuncias", desc: "Protección ante acusaciones infundadas." },
   { id: 4, Icon: IconLaboral, title: "Derecho Laboral", desc: "Asesoría integral para trabajadores y empresas." },
   { id: 5, Icon: IconPenal, title: "Derecho Penal", desc: "Defensa técnica en procesos complejos." },
+  { id: 6, Icon: IconPenal, title: "Derecho Civil", desc: "Asesoramiento en contratos, daños, bienes y conflictos entre particulares." },
+  { id: 7, Icon: IconPenal, title: "Derecho Previsional", desc: "Gestión de jubilaciones, pensiones y reclamos ante ANSES." },
+
 ];
