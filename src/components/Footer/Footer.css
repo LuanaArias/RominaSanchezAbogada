@@ -64,29 +64,6 @@
   transform: translateX(3px);
 }
 
-/* WHATSAPP */
-.whatsapp-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 0.95rem;
-  opacity: 0.95;
-  transition: all 0.3s ease;
-}
-
-.whatsapp-link svg {
-  font-size: 1.4rem;
-  color: #ffffff;
-}
-
-.whatsapp-link:hover {
-  opacity: 1;
-  color: var(--primary);
-  transform: translateY(-2px);
-}
-
 .footer-bottom {
   margin-top: 4rem;
   padding-top: 1.5rem;
@@ -127,6 +104,32 @@
 
 .dev-credit a:hover::after {
   width: 100%;
+}
+
+.whatsapp-link,
+.email-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  opacity: 0.95;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-link svg,
+.email-link svg {
+  font-size: 1.2rem;
+  color: currentColor;
+}
+
+.whatsapp-link:hover,
+.email-link:hover {
+  color: #C08A5A;
+  transform: translateX(4px);
+  opacity: 1;
 }
 
 /* RESPONSIVE */
