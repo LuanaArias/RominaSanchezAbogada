@@ -1,4 +1,5 @@
 import imagenFondo from '../../assets/imagenHero.jpg'
+import { IconoAsesoria } from '../ui/Iconos/IconoAsesoria/IconoAsesoria';
 import "./SeccionHero.css";
 
 export function SeccionHero() {
@@ -26,7 +27,8 @@ export function SeccionHero() {
                             </a>
 
                             <a href="#contacto" className="btn primary">
-                                Contáctanos
+                                <IconoAsesoria/>
+                                Solicitar asesoría
                             </a>
                         </div>
                     </div>

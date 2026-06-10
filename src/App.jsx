@@ -4,6 +4,7 @@ import { Header } from './components/Header/Header'
 import { PaginaPrincipal } from './pages/PaginaPrincipal/PaginaPrincipal'
 import { useState, useEffect } from 'react'
 import { Footer } from './components/Footer/Footer'
+import { BotonWsp } from './components/ui/BotonWsp/BotonWsp'
 function App() {
   const [theme, setTheme] = useState("light");
 
@@ -20,6 +21,7 @@ function App() {
       <Header tema={theme} alternar={toggleTheme}/>
       <main>
         <PaginaPrincipal />
+        <BotonWsp />
       </main>
       <Footer />
     </div>

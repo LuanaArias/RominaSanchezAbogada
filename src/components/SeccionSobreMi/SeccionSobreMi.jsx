@@ -1,10 +1,9 @@
 import './SeccionSobreMi.css';
-import fotoSobreMi from '../.././assets/sobremifoto.jpg'
+import fotoSobreMi from '../.././assets/rominaSanchez.jpeg'
 export function SeccionSobreMi() {
   return (
     <section id="sobre-mi" className="sobre-mi-section">
       <div className="sobre-mi-container">
-        {/* Columna de Imagen */}
         <div className="sobre-mi-image-wrapper">
           <div className="image-frame">
             <img 

@@ -55,7 +55,7 @@ export const areasEstudio = [
   { id: 3, Icon: IconDenuncias, title: "Falsas Denuncias", desc: "Protección ante acusaciones infundadas." },
   { id: 4, Icon: IconLaboral, title: "Derecho Laboral", desc: "Asesoría integral para trabajadores y empresas." },
   { id: 5, Icon: IconPenal, title: "Derecho Penal", desc: "Defensa técnica en procesos complejos." },
-  { id: 6, Icon: IconPenal, title: "Derecho Civil", desc: "Asesoramiento en contratos, daños, bienes y conflictos entre particulares." },
-  { id: 7, Icon: IconPenal, title: "Derecho Previsional", desc: "Gestión de jubilaciones, pensiones y reclamos ante ANSES." },
+  { id: 6, Icon: IconCivil, title: "Derecho Civil", desc: "Asesoramiento en contratos, daños, bienes y conflictos entre particulares." },
+  { id: 7, Icon: IconPrevisional, title: "Derecho Previsional", desc: "Gestión de jubilaciones, pensiones y reclamos ante ANSES." },
 
 ];
