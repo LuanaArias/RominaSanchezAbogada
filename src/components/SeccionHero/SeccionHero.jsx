@@ -16,7 +16,7 @@ export function SeccionHero() {
                 <div className="section-hero-container">
                     <div className="section-hero-content">
                         <h1>
-                            Dra. Romina Sanchez
+                            Dra. Romina Sánchez
                         </h1>
 
                         <p>Abogada de familias - Especialista en falsas denuncias, obstrucciones de vínculos y otras especialidades.</p>
